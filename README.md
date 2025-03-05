@@ -21,7 +21,7 @@ This repo contains the official speech tokenizer used to train the [EMOVA](https
 - **Flexible speech style control**: thanks to the semantic-acoustic disentanglement, EMOVA speech tokenizer supports **24 speech style controls** (i.e., 2 speakers, 3 pitches, and 4 emotions). Check the [Usage](#usage) for more details.
 
 <div align="center">
-  <img src="examples/images/model_architecture.png" width=100%></img>
+  <img src="./examples/images/model_architecture.PNG" width=100%></img>
 </div>
 
 
@@ -48,8 +48,6 @@ Clone this repo and create the EMOVA virtual environment with conda. Our code ha
    pip install -e .[npu] # OR for Ascend NPUS (e.g., 910B3)
    ```
 
-
-
 ## Usage
 
 > [!NOTE]  
@@ -61,8 +59,10 @@ EMOVA speech tokenizer can be easily deployed using the 🤗 HuggingFace transfo
 import random
 from transformers import AutoModel
 import torch
-# import torch_npu # add it if you want to use NPU
-# from torch_npu.contrib import transfer_to_npu # add it if you want to use NPU
+
+## add if you want to use Ascend NPUs
+# import torch_npu
+# from torch_npu.contrib import transfer_to_npu
 
 # load pretrained model
 model = AutoModel.from_pretrained("Emova-ollm/emova_speech_tokenizer_hf", torch_dtype=torch.float32, trust_remote_code=True).eval().cuda()
