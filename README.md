@@ -4,8 +4,6 @@
 
 # EMOVA Speech Tokenizer
 
-### CVPR 2025
-
 🤗 [HuggingFace](https://huggingface.co/Emova-ollm/emova_speech_tokenizer_hf) | 💻 [EMOVA-Main-Repo](https://github.com/emova-ollm/EMOVA) | 📄 [EMOVA-Paper](https://arxiv.org/abs/2409.18042) | 🌐 [Project-Page](https://emova-ollm.github.io/)
 
 </div>
