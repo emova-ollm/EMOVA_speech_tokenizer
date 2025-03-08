@@ -33,7 +33,7 @@ Clone this repo and create the EMOVA virtual environment with conda. Our code ha
 
    ```bash
    git clone https://github.com/emova-ollm/EMOVA_speech_tokenizer.git
-   conda create -n emova python=3.9 -y
+   conda create -n emova python=3.10 -y
    conda activate emova
    ```
 
