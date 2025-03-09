@@ -8,6 +8,12 @@
 
 </div>
 
+This repository contains the implementation of the paper:
+
+> EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions <br>
+> [Kai Chen](https://kaichen1998.github.io/), [Yunhao Gou](https://gyhdog99.github.io/), [Runhui Huang](https://scholar.google.com/citations?user=B5zcj4wAAAAJ), [Zhili Liu](https://scholar.google.com/citations?user=FdR09jsAAAAJ), [Daxin Tan](https://www.linkedin.com/in/daxin-tan-b41870103/), [Jing Xu](), [Chunwei Wang](https://scholar.google.com/citations?user=yHxwwacAAAAJ), [Yi Zhu](https://yeezhu.github.io/), [Yihan Zeng](https://scholar.google.com/citations?user=YiDxCoAAAAAJ), [Kuo Yang](https://www.linkedin.com/in/kuo-yang/?originalSubdomain=hk), [Dingdong Wang](), [Kun Xiang](), [Haoyuan Li](), [Haoli Bai](https://haolibai.github.io/), [Jianhua Han](https://scholar.google.com/citations?user=OEPMQEMAAAAJ&hl=en), [Xiaohui Li](), [Weike Jin](https://scholar.google.com.hk/citations?user=ChSE_BAAAAAJ&hl=zh-CN), [Nian Xie](), [Yu Zhang](https://yuzhanghk.github.io/), [James T. Kwok](https://www.cse.ust.hk/~jamesk/), [Hengshuang Zhao](https://hszhao.github.io/), [Xiaodan Liang](https://lemondan.github.io/), [Dit-Yan Yeung](https://sites.google.com/view/dyyeung/home), [Xiao Chen](https://hk.linkedin.com/in/xiao-chen-065185167), [Zhenguo Li](https://scholar.google.com/citations?user=XboZC1AAAAAJ&hl=zh-CN), [Wei Zhang](), [Qun Liu](https://liuquncn.github.io/index_en.html), [Jun Yao](https://openreview.net/profile?id=~Jun_Yao2), [Lanqing Hong](https://scholar.google.com/citations?hl=zh-CN&user=2p7x6OUAAAAJ&view_op=list_works&sortby=pubdate), [Lu Hou](https://houlu369.github.io/), [Hang Xu](https://xuhangcn.github.io/) <br>
+> *Computer Vision and Pattern Recognition Conference (CVPR), 2025.*
+
 ## Introduction
 
 This repo contains the official speech tokenizer used to train the [EMOVA](https://emova-ollm.github.io/) series of models. With a semantic-acoustic disentangled design, it not only facilitates seamless omni-modal alignment among vision, language and speech modalities, but also empowers flexible speech style controls including speakers, emotions and pitches. We summarize its key advantages as:
