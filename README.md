@@ -4,7 +4,7 @@
 
 # EMOVA Speech Tokenizer
 
-🤗 [HuggingFace](https://huggingface.co/Emova-ollm/emova_speech_tokenizer_hf) | 💻 [EMOVA-Main-Repo](https://github.com/emova-ollm/EMOVA) | 📄 [EMOVA-Paper](https://arxiv.org/abs/2409.18042) | 🌐 [Project-Page](https://emova-ollm.github.io/)
+🤗 [HuggingFace](https://huggingface.co/Emova-ollm/emova_speech_tokenizer_hf) | 📄 [Paper](https://arxiv.org/abs/2409.18042) | 🌐 [Project-Page](https://emova-ollm.github.io/) | 💻 [Github](https://github.com/emova-ollm/EMOVA_speech_tokenizer) | 💻 [EMOVA-Github](https://github.com/emova-ollm/EMOVA)
 
 </div>
 
